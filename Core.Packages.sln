@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Persistance", "Core.Persistance\Core.Persistance.csproj", "{48EB2D4D-744D-422A-B5A4-416C59AB82FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Persistance", "Core.Persistance\Core.Persistance.csproj", "{48EB2D4D-744D-422A-B5A4-416C59AB82FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "Core.Application\Core.Application.csproj", "{62125E4A-6990-4416-BC3F-CB2302BAF883}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Application", "Core.Application\Core.Application.csproj", "{62125E4A-6990-4416-BC3F-CB2302BAF883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.CrossCuttingConcerns", "Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{CF4EE916-CB78-4415-861E-8DC27690F709}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{62125E4A-6990-4416-BC3F-CB2302BAF883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62125E4A-6990-4416-BC3F-CB2302BAF883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62125E4A-6990-4416-BC3F-CB2302BAF883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4EE916-CB78-4415-861E-8DC27690F709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4EE916-CB78-4415-861E-8DC27690F709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4EE916-CB78-4415-861E-8DC27690F709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4EE916-CB78-4415-861E-8DC27690F709}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
