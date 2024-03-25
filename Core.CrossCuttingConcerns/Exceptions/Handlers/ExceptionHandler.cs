@@ -7,9 +7,11 @@ public abstract class ExceptionHandler
         exception switch
         {
             BusinessException businessException => HandleException(businessException),
+            ValidationException validationException => HandleException(validationException),
             _ => HandleException(exception)
         };
 
     protected abstract Task HandleException(BusinessException businessException);
+    protected abstract Task HandleException(ValidationException businessException);
     protected abstract Task HandleException(Exception businessException);
 }
