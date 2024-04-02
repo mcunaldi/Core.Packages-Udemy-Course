@@ -1,5 +1,5 @@
-﻿using Core.Persistance.Dynamic;
-using Core.Persistance.Paging;
+﻿using Core.Persistence.Dynamic;
+using Core.Persistence.Paging;
 using Core.Persistence.Dynamic;
 using Core.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -9,7 +9,7 @@ using System.Collections;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Core.Persistance.Repositories;
+namespace Core.Persistence.Repositories;
 public class EfRepositoryBase<TEntity, TEntityId, TContext> : IAsyncRepository<TEntity, TEntityId>, IRepository<TEntity, TEntityId>
     where TEntity : Entity<TEntityId>
     where TContext : DbContext

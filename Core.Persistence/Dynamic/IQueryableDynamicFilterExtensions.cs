@@ -1,4 +1,4 @@
-﻿using Core.Persistance.Dynamic;
+﻿using Core.Persistence.Dynamic;
 using System.Linq.Dynamic.Core;
 using System.Text;
 

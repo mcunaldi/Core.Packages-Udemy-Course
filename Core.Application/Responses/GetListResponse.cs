@@ -1,4 +1,4 @@
-﻿using Core.Persistance.Paging;
+﻿using Core.Persistence.Paging;
 
 namespace Core.Application.Responses;
 public class GetListResponse<T> : BasePageableModel

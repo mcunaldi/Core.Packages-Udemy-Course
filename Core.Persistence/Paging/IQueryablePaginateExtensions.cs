@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Core.Persistance.Paging;
+namespace Core.Persistence.Paging;
 public static class IQueryablePaginateExtensions
 {
     public static async Task<Paginate<T>> ToPaginateAsync<T>(
